@@ -32,6 +32,6 @@ Profile -> Settings -> ssh and GPG keys
 
 Add key from
 ~/.ssh/id_rsa.pub
+ssh -T git@github.com
 Hi MartinMohan! You've successfully authenticated, but GitHub does not provide shell access.
-
 
