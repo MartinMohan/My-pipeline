@@ -11,5 +11,6 @@ admin/d3fd087f7b034f7fba8da472f0c602f7
 https://www.jenkins.io/doc/pipeline/tour/hello-world/
 http://localhost:8080/job/My-Pipeline/configure
 docker run -p 8080:8080 -p 50000:50000 -v /home/admin:/var/jenkins_home jenkins/jenkins
+docker run -p 8080:8080 -p 50000:50000 -v /home/admin:/var/jenkins_home jenkins-python
 
 git config --global -e
