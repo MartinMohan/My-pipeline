@@ -13,7 +13,7 @@ pipeline {
 //                    sh 'python --version'
                       sh 'python3 --version'
                     // Run hello_world.py program
-                    sh 'python hello_world.py'
+                    sh 'python3 hello_world.py'
                  }
             }
         }
@@ -22,7 +22,7 @@ pipeline {
                 echo "testing application.."
                 script {
                     // Run hello_world_test.py tests
-                    sh 'python hello_world_test.py'
+                    sh 'python3 hello_world_test.py'
                  }
             }
         }
