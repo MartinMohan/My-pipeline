@@ -16,6 +16,8 @@ RUN curl -fsSL https://get.docker.com -o get-docker.sh \
 
 # Switch back to the Jenkins user.
 USER jenkins
+#COPY hello_world.py /home/hello_world.py
+
 
 # build and run the new Docker image named jenkins-python using:
 #docker build -t jenkins-python .
