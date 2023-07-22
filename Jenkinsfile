@@ -10,7 +10,8 @@ pipeline {
                 echo "building version ${NEW_VERSION}.."
                 script {
                     // Check the Python version
-                    sh 'python --version'
+//                    sh 'python --version'
+                      sh 'python3 --version'
                     // Run hello_world.py program
                     sh 'python hello_world.py'
                  }
